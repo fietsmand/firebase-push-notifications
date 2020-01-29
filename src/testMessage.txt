@@ -1,0 +1,9 @@
+{
+    "to": "fSwEgyVEkAQYsy5qv3kO4M:APA91bEhYmE32x5OIMUv6Z57Q9a8hitXPp82h4rUsF3dwkpTUss13IgmzcFTye0FxjwaVAOSaiz9q65C83wEFZRCleVWF5i-0z0sUaQ-WO2P9kEhkzLoApMXbNDcIIuH3LDsLWohkk1Y",
+    "notification": {
+        "title": "Hello",
+        "body": "World!"
+    }
+}
+
+curl --header "Authorization: key=AIzaSyAih4hojXKZKGoHdtCCWEoIlEI4WgVK9ow" --header "Content-Type: application/json" -d '{"to": "fSwEgyVEkAQYsy5qv3kO4M:APA91bEhYmE32x5OIMUv6Z57Q9a8hitXPp82h4rUsF3dwkpTUss13IgmzcFTye0FxjwaVAOSaiz9q65C83wEFZRCleVWF5i-0z0sUaQ-WO2P9kEhkzLoApMXbNDcIIuH3LDsLWohkk1Y","notification": {"title": "Hello","body": "World!"}}' https://fcm.googleapis.com/fcm/send
